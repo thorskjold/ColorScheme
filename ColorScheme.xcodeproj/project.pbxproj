@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E4C74C025EAF87E000DA3AF /* ColorSchemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C74AD25EAF87D000DA3AF /* ColorSchemeApp.swift */; };
 		7E4C74C125EAF87E000DA3AF /* ColorSchemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C74AD25EAF87D000DA3AF /* ColorSchemeApp.swift */; };
-		7E4C74C225EAF87E000DA3AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C74AE25EAF87D000DA3AF /* ContentView.swift */; };
 		7E4C74C325EAF87E000DA3AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C74AE25EAF87D000DA3AF /* ContentView.swift */; };
-		7E4C74C425EAF87E000DA3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4C74AF25EAF87E000DA3AF /* Assets.xcassets */; };
 		7E4C74C525EAF87E000DA3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4C74AF25EAF87E000DA3AF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +16,6 @@
 		7E4C74AD25EAF87D000DA3AF /* ColorSchemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeApp.swift; sourceTree = "<group>"; };
 		7E4C74AE25EAF87D000DA3AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E4C74AF25EAF87E000DA3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E4C74B425EAF87E000DA3AF /* ColorScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4C74B725EAF87E000DA3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4C74BC25EAF87E000DA3AF /* ColorScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4C74BE25EAF87E000DA3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,13 +23,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E4C74B125EAF87E000DA3AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E4C74B925EAF87E000DA3AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,7 +56,6 @@
 		7E4C74B525EAF87E000DA3AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E4C74B425EAF87E000DA3AF /* ColorScheme.app */,
 				7E4C74BC25EAF87E000DA3AF /* ColorScheme.app */,
 			);
 			name = Products;
@@ -93,23 +81,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E4C74B325EAF87E000DA3AF /* ColorScheme (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4C74C825EAF87E000DA3AF /* Build configuration list for PBXNativeTarget "ColorScheme (iOS)" */;
-			buildPhases = (
-				7E4C74B025EAF87E000DA3AF /* Sources */,
-				7E4C74B125EAF87E000DA3AF /* Frameworks */,
-				7E4C74B225EAF87E000DA3AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ColorScheme (iOS)";
-			productName = "ColorScheme (iOS)";
-			productReference = 7E4C74B425EAF87E000DA3AF /* ColorScheme.app */;
-			productType = "com.apple.product-type.application";
-		};
 		7E4C74BB25EAF87E000DA3AF /* ColorScheme (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4C74CB25EAF87E000DA3AF /* Build configuration list for PBXNativeTarget "ColorScheme (macOS)" */;
@@ -136,9 +107,6 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					7E4C74B325EAF87E000DA3AF = {
-						CreatedOnToolsVersion = 12.4;
-					};
 					7E4C74BB25EAF87E000DA3AF = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -157,21 +125,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E4C74B325EAF87E000DA3AF /* ColorScheme (iOS) */,
 				7E4C74BB25EAF87E000DA3AF /* ColorScheme (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7E4C74B225EAF87E000DA3AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E4C74C425EAF87E000DA3AF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E4C74BA25EAF87E000DA3AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,15 +142,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7E4C74B025EAF87E000DA3AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E4C74C225EAF87E000DA3AF /* ContentView.swift in Sources */,
-				7E4C74C025EAF87E000DA3AF /* ColorSchemeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E4C74B825EAF87E000DA3AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,57 +265,13 @@
 			};
 			name = Release;
 		};
-		7E4C74C925EAF87E000DA3AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VX5CR539N9;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Thorskjold.ColorScheme;
-				PRODUCT_NAME = ColorScheme;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7E4C74CA25EAF87E000DA3AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VX5CR539N9;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Thorskjold.ColorScheme;
-				PRODUCT_NAME = ColorScheme;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		7E4C74CC25EAF87E000DA3AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VX5CR539N9;
@@ -377,6 +283,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = Thorskjold.ColorScheme;
 				PRODUCT_NAME = ColorScheme;
 				SDKROOT = macosx;
@@ -390,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VX5CR539N9;
@@ -401,6 +309,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = Thorskjold.ColorScheme;
 				PRODUCT_NAME = ColorScheme;
 				SDKROOT = macosx;
@@ -416,15 +325,6 @@
 			buildConfigurations = (
 				7E4C74C625EAF87E000DA3AF /* Debug */,
 				7E4C74C725EAF87E000DA3AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E4C74C825EAF87E000DA3AF /* Build configuration list for PBXNativeTarget "ColorScheme (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E4C74C925EAF87E000DA3AF /* Debug */,
-				7E4C74CA25EAF87E000DA3AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
